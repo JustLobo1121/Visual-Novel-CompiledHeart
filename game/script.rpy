@@ -1,66 +1,78 @@
 ﻿# personajes 
 define pov = ("[povname]") # prota
-define povInside = ("pensamientos de [povname]")
-define narrador = ("Dario") # dice las desc. y esos
+define povInside = ("pensamientos de [povname]") # monologo interno
+define narrador = ("Dario") # narrador
 define Cristi = ("Cristina") # interes amorozo
 define e = ("guia del stand") # 1 solo uso
 define ProfCris = ("Profe Cristian") # profes importantes
 define ProfKermin = ("Profe Kermin") # profes importantes
 # uso de flags
-define prologo = True # reutilizacion de 2 escenarios
+define prologo = True 
+    # reutilizacion de 2 escenarios
 define state = 0 # reutilizacion de escenarios
-# state 0 uso neutro
-# state 1/2 rutas practica
-# state 3/4 rutas teoria
+    # state 0 uso neutro
+    # state 1/2 rutas practica
+    # state 3/4 rutas teoria
 define switch = 0
-# 1 practica
-# 2 teoria
-define Seleccion = 0 # 2 opciones
+    # 1 practica
+    # 2 teoria
+define Seleccion = 0 
+    # 1 colocar ing inf
+    # 2 no colocarlo
 define Quedarse = True 
-# true te quedas
-# false te vas
-define rutaBuena = False # mas historia
-define rutaMala = False # menos historia
+    # true te quedas
+    # false te vas
+define rutaBuena = False
+    # mas historia
+define rutaMala = False 
+    # menos historia
 # definicion de imagenes
 image bg bus inside = "bus inside.png"
 image bg house = "house.png"
 image bg carnival base = "carnival.png"
-image bg carnival gym = "carnival gym.png"
-image bg classroom prog pt0 = "classroom prog pt0.png"
-image bg classroom prog pt1 = "classroom prog pt1.png"
-image bg classroom prog pt2 = "classroom prog pt2.png"
-image bg entrance uni pt1 = "entrance uni pt1.png"
+image bg classroom prog = "classroom prog.png"
+image bg entrance uni pt1 = "entrance uni pt1.png" # posible uso
 image bg entrance uni pt2 = "entrance uni pt2.png"
-image bg mainbuilding entrance = "images/mainbuilding entrace.png"
+image bg mainbuilding entrance = "images/mainbuilding entrace.png" # posible uso
 image bg mainbuilding stairs pt1= "mainbuilding stairs pt1.png"
-image bg mainbuilding stairs pt2= "mainbuilding stairs pt2.png"
-image bg mainbuilding stairs night pt2= "mainbuilding stairs pt2 night.png"
-image bg mainbuilding floor2 night = "mainbuilding floor2 night.png"
+image bg mainbuilding stairs night pt2= "mainbuilding stairs pt2 night.png" # cambiar imagen
 image bg mainbuilding hallway= "mainbuilding hallway.png"
-image bg mainbuilding hallway night = "mainbuilding hallway night.png"
 image bg library uni general = "library uni general.png"
-image bg library uni couch = "library uni couch.png"
+image bg library uni couch = "library uni couch.png" # posible uso
 image bg library uni base = "library uni pt0.png"
 image bg library uni pt1 = "library uni pt1.png"
-image bg library uni pt2 = "library uni pt2.png"
+image bg library uni pt2 = "library uni pt2.png" # posible uso
 image bg office uni pt1 = "office uni pt1.png"
-image bg office uni pt2 = "office uni pt2.png"
-image bg bathroom uni = "bathroom uni.png"
-image bg outside uni = "outside uni.png"
 # definiciones de audio
-define audio.ColorYourNight = "./audio/Color Your Night.mp3"
-define audio.RoadNoise = './audio/road-noise-1.mp3'
-define audio.FairNoise = './audio/street-fair-background-noise-149086.mp3'
+define audio.ColorYourNight = "./audio/Color Your Night.mp3" # casa del prota
+define audio.RoadNoise = './audio/road-noise-1.mp3' # efecto de sonido
+define audio.FairNoise = './audio/street-fair-background-noise-149086.mp3' # efecto de sonido
+define audio.Alone = "./audio/Alone.mp3" # momento con Cristi
+define audio.IReallyWantYou = "./audio/I Really Want to Stay at Your House  Cyberpunk 2077 OST.mp3" #final de Cristi y quedarte
+define audio.LastGoodbye = "./audio/Last Goodbye.mp3" # Final?
+define audio.Lilium = "./audio/lilium.mp3" # final malo e irte
+define audio.Majula = "./audio/Majula dark souls 2.mp3" # tema edificio Principal y derivados
+define audio.NextToYou = "./audio/NEXT TO YOU.mp3" # final salvacion
+define audio.OceanOfMemories = "./audio/Ocean of Memories.mp3" #noche
+define audio.OnceUponAtime = "./audio/Once Upon a Time.mp3" # ingreso Nombre
+define audio.RightBehindYou = "./audio/Right Behind You.mp3" #momento de tension
+define audio.SunsetBridge = "./audio/Sunset Bridge.mp3" #zona biblioteca y derivados
+define audio.WithASmile = "./audio/With a Smile.mp3" # tema oficina jefe de carrera
+define audio.IntroEffect = "./audio/Undertale Sound Effect Intro.mp3" # efecto de sonido
+define audio.Atonomy = "./audio/Autonomy.mp3" # sala de programacion
 # escena de inicio
 label start:
+    stop music
     scene black
+    play music OnceUponAtime volume 0.75 loop
     $ povname = renpy.input("Cual es mi nombre?", length=32)
     $ povname = povname.strip()
     jump feriaUni
     return
 # prologo
 label feriaUni:
-    play audio FairNoise
+    stop music
+    play music FairNoise volume 0.15 loop
     scene bg carnival base with dissolve:
         xzoom 1.5
     
@@ -91,6 +103,7 @@ label feriaUni:
             jump listaDeCarreras
         "termine":
             if carreras:
+                $ listaConcat = carreras
                 pov "mis opciones son: [listaConcat], esas son."
             else:
                 pov "no tengo opciones pensadas."
@@ -122,7 +135,8 @@ label feriaUni:
     jump bus
     return
 label bus:
-    play audio RoadNoise
+    stop music
+    play music RoadNoise volume 0.25 loop
     scene bg bus inside with dissolve:
         xzoom 1.1
         yzoom 1.1
@@ -133,7 +147,8 @@ label bus:
     jump casaDelProta
     return
 label casaDelProta:
-    play music ColorYourNight volume 0.75
+    stop music
+    play music ColorYourNight volume 0.05 loop
     scene bg house with dissolve:
         xzoom 1.5
         yzoom 1.5
@@ -170,6 +185,7 @@ label casaDelProta:
                 $ Seleccion = 2
         jump transiciones
     elif state == 0:
+
         narrador "La parcial de programación llegó en un reglón, siendo un evento bastante importante. Era la oportunidad perfecta, para saber que [povname] está por hacer la decisión era correcta."
         menu Teoria_o_Practica:
             "¿Teoría o práctica?"
@@ -188,6 +204,8 @@ label entrada_Uni:
         yzoom 1.5
 
     if state == 0:
+        stop music
+        play music OceanOfMemories volume 0.25 loop
         povInside "Al salir a la entrada principal, un gran frío golpeó mi cuerpo."
         pov "Maldición..."
         povInside "Había sido un día bastante agotador, y aún faltaba para llegar a casa, sin embargo, mis pies se detuvieron al mirar de reojo la biblioteca."
@@ -201,6 +219,8 @@ label entrada_Uni:
         jump Oficina_Cristian
     return
 label pasillo_Uni:
+    stop music
+    play music Majula volume 0.25 loop
     scene bg mainbuilding hallway with dissolve:
         xzoom 1.5
         yzoom 1.5
@@ -209,6 +229,8 @@ label pasillo_Uni:
         jump entrada_Uni
     return
 label bibloteca_general:
+    stop music
+    play music SunsetBridge volume 0.25 loop
     scene bg library uni general with dissolve:
         xzoom 2
         yzoom 2.5
@@ -226,6 +248,9 @@ label bibloteca_general:
         povInside "Recién al final de ese día, me di cuenta que subía al mismo bus que yo."
         jump transiciones
     elif state == 2:
+        stop music
+        play music Alone fadein 1.5 volume 0.25 loop
+        # momento Cristi
         pov "Lo hice."
         Cristi "Lo hiciste."
         pov "¿Fue lo correcto?"
@@ -236,6 +261,8 @@ label bibloteca_general:
         jump finales
     return
 label biblioteca_mostrador:
+    stop music
+    play music Alone volume 0.25 loop
     scene bg library uni base with dissolve:
         xzoom 1.5
         yzoom 1.5
@@ -251,13 +278,16 @@ label biblioteca_mostrador:
     Cristi "Yo… Supongo…"
     pov "Salgo a las 17:00… Es mi último parcial."
     Cristi "El último…"
-    povInside "Al ver su cara dudosa, supe que quería decirme algo, así que espere un poco,"
     if state == 1:
+        stop music fadeout 1.5
+        play music RightBehindYou volume 0.05 fadein 0.5
         povInside "Al ver su cara dudosa, supe que quería decirme algo, así que espere un poco, así que espere un poco."
         povInside "En un momento subrealista, la chica callada salió del mostrador,"
         povInside "y me agarró de la muñeca, arrastrandome al área de libros"
         jump biblioteca_zona_libros
     if state == 3:
+        stop music fadeout 1.5
+        play music RightBehindYou volume 0.05 fadein 0.5
         povInside "Al ver su cara dudosa, supe que quería decirme algo, así que espere un poco, sin embargo, no dijo nada, hasta que momentos después sólo negó con la cabeza."
         povInside "Una familiar sonrisa pura vino a mí, y ante mi expresión confusa, una mueca de preocupación se posó en su rostro, sin embargo, no tocó el tema más allá."
         Cristi "Buena suerte."
@@ -265,6 +295,8 @@ label biblioteca_mostrador:
         # moros por la costa y son las 2 am XD
     return
 label biblioteca_zona_libros:
+    stop music
+    play music Alone volume 0.25 fadein 1.5 loop
     scene bg library uni pt1 with dissolve:
         xzoom 1.5
         yzoom 1.5
@@ -315,10 +347,10 @@ label biblioteca_zona_libros:
         Cristi "Buena suerte… Te veo a las 17:00"
         jump transiciones
     return
-label biblioteca_zona_escritorios:
-    return
 label sala_Programacion:
-    scene bg classroom prog pt2 with dissolve:
+    stop music
+    play music Atonomy volume 0.25 # tension? | frustrado | parte importante
+    scene bg classroom prog with dissolve:
         xzoom 1.5
     if state == 0:
         povInside "Sentí mis dientes apretarse, al ver en la terminal todos los errores que indicaba el compilador, en pleno control de programación."
@@ -365,7 +397,7 @@ label sala_Programacion:
         povInside "Quería lidiar con todo solo, y no quería que todos creyeran que al final no servía."
         povInside "Desde el principio, solo todo fue simplemente una demostración inmadura para llevarle la contraria a esa persona."
         povInside "Y acabé fracasando."
-        scene bg classroom prog pt2 with dissolve:
+        scene bg classroom prog with dissolve:
             xzoom 1.5
         povInside "Al final, acabé saliendo hasta el final de clases, sin poder haber hecho nada."
         povInside "Me fui a mi casa sin verla"
@@ -384,19 +416,25 @@ label sala_Programacion_C:
         povInside "Al final del parcial, salí de aquella sala con la espalda bastante más ligera que de costumbre."
         jump escaleras_noche
     return
-label escaleras_dia:
+label escaleras_dia:    
     scene bg mainbuilding stairs pt1 with dissolve:
         xzoom 1.5
         yzoom 1.5
     if state == 1:
+        stop music
+        play music Majula volume 0.25
         povInside "Apenas salí de clase, me escabullí a la biblioteca."
         povInside "Fui con paso alegre, pasando por el familiar espacio de logias llenas de estudiantes, fui directo al mostrador."
         jump biblioteca_mostrador
     elif state == 2:
+        stop music
+        play music Majula volume 0.25
         narrador "[povname] comenzo a caminar hasta programacion, dónde el profesor lo esperaba con una sonrisa sádica."
         povInside "Kermin"
         jump sala_Programacion
     elif state == 3:
+        stop music
+        play music Majula volume 0.25
         povInside "Extrañado, comencé a caminar hasta programación, dónde el profesor me esperaba con una sonrisa sádica"
         jump sala_Programacion
     elif state == 4:
@@ -406,23 +444,32 @@ label escaleras_dia:
         jump finales
     return
 label escaleras_noche:
+    stop music
+    scene bg mainbuilding stairs night pt2 with dissolve
+    play music OceanOfMemories volume 0.25 loop
     if state == 2:
         povInside "Había sido bastante satisfactorio a comparación de los anteriores, en los que acababa siempre sintiendo una gran frustración."
         povInside "Independiente de mi nota, mi realización había sido completa, por lo que estaba bien."
         jump entrada_Uni
     return
 label Oficina_Cristian:
+    stop music
     scene black with dissolve
+    play music IntroEffect volume 0.5
     show text "Epilogo" with Pause(1.5)
     scene black with dissolve
+    play music WithASmile fadein 1.0 volume 0.25 loop
     narrador "Ante el final de la clase de introducción a la ingeniería, [povname] siguió al profesor al aula, debido a la conversación a inicio del semestre debido a éste tema."
     scene bg office uni pt1 with dissolve:
         xzoom 1.5
     ProfCris "Dime, a qué conclusión llegaste."
     narrador "Una suave sonrisa se posó en el jefe de carrera."
+    play music RightBehindYou volume 0.05
     menu Quedate_o_fuera:
         "Yo..."
         "Voy a quedarme":
+            stop music fadeout 1.5
+            play music IReallyWantYou volume 0.25 fadein 1.5 loop
             $ Quedarse = True
             $ switch = 5
             ProfCris "¿Qué te convenció?"
@@ -438,6 +485,8 @@ label Oficina_Cristian:
             narrador "Con ese alivio en el pecho, [povname] se dirigío a la biblioteca con pasos animados, dónde Cristina lo esperaba con una sonrisa."
             jump bibloteca_general
         "Voy a irme":
+            stop music fadeout 1.0
+            play music Lilium volume 0.25 loop
             $ Quedarse = False
             $ state = 4
             ProfCris "¿Al final fue eso?"
@@ -449,13 +498,16 @@ label Oficina_Cristian:
             jump escaleras_dia
     return
 label transiciones:
+    stop music
     scene black with dissolve
     if Seleccion == 0:
         $ Seleccion = 10
-        show text "Capítulo único \n 'Programación'" with Pause(1.5)
+        play music IntroEffect volume 0.5
+        show text "Capítulo único \n 'Programación'" with Pause(3)
         jump casaDelProta
     elif Seleccion == 1:
-        show text "5 meses despues" with Pause(1.5)
+        play music IntroEffect volume 0.5
+        show text "5 meses despues" with Pause(3)
         $ Seleccion = 0
         $ prologo = False
         jump sala_Programacion
@@ -473,18 +525,35 @@ label transiciones:
         jump biblioteca_mostrador
     return
 label finales:
+    stop music
     scene black with dissolve
     if Seleccion == 2:
-        show text "Final: Te salvaste" with Pause(1.5)
-        show text "Felicidades?" with Pause(1.5)
-    elif Quedarse:
+        play music NextToYou volume 0.25 fadein 1.5
+        play music IntroEffect volume 0.5
+        show text "Final: Te salvaste" with Pause(3)
+        play music IntroEffect volume 0.5
+        show text "Felicidades?" with Pause(3)
+    elif Quedarse and rutaBuena:
         povInside "Una paz bastante temporal, sabiendo que era apenas mi primer semestre de ingeniería, sin embargo, me sentía aún más preparado para el segundo de lo que podría esperar."
-        show text "Final: “Bienvenido a la carrera y buena suerte”" with Pause(1.5)
-    else:
+        play audio IntroEffect volume 0.5
+        show text "Final: \n“Bienvenido a la carrera y buena suerte”" with Pause(3)
+    elif not Quedarse and rutaMala:
         pov "Mi futuro dependía de mí, después de todo."
         pov "Tal vez jamás iba a ser el futuro que había imaginado, iba a ser un futuro distinto, pero me aseguraría que al fin y al cabo, fuera uno con el que estuviera feliz."
         pov "Uno por el que sentía que valía la pena luchar."
-        
-        show text "Final: “Buena suerte en lo que decidas”" with Pause(1.5)
-
+        play audio IntroEffect volume 0.5
+        show text "Final: \n“Buena suerte en lo que decidas”" with Pause(3)
+    elif not Quedarse and rutaBuena:
+        pov "Mi futuro dependía de mí, después de todo."
+        pov "Tal vez jamás iba a ser el futuro que había imaginado, iba a ser un futuro distinto, pero me aseguraría que al fin y al cabo, fuera uno con el que estuviera feliz."
+        pov "Uno por el que sentía que valía la pena luchar."
+        narrador "[povname] habiendo decidido su futuro, decidido aunque algo decaido se fue de la universidad"
+        play audio IntroEffect volume 0.5
+        show text "Final: \n“Buena suerte en tu futuro”" with Pause(3)
+    elif Quedarse and rutaMala:
+        narrador "Una paz bastante temporal, [povname] sabiendo que era apenas su primer semestre de ingeniería, sin embargo, se sentía aún más preparado para el segundo de lo que podría esperar."
+        narrador "[povname] se iba a hablar con Cristina pero..."
+        narrador "con determinacion seguira su pasion y posiblemente a Cristina."
+        play audio IntroEffect volume 0.5
+        show text "Final: \n“Bienvenido a la carrera...”" with Pause(3)
     return

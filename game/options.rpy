@@ -24,7 +24,7 @@ define gui.show_name = True
 
 ## Versión del juego.
 
-define config.version = "1.0"
+define config.version = "1.1"
 
 
 ## Texto situado en la pantalla 'Acerca de' del juego. Sitúa el texto entre
@@ -49,6 +49,7 @@ define build.name = "CompiledHeart"
 define config.has_sound = True
 define config.has_music = True
 define config.has_voice = True
+define config.main_menu_music = "./audio/Paradise.mp3"
 
 
 ## Para permitir al usuario probar el volumen de los canales de sonido o voz,
