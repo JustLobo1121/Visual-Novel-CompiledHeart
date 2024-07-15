@@ -47,6 +47,10 @@ image bg office uni pt1 = "office uni pt1.png"
 image bg office uni pt2 = "office uni pt2.png"
 image bg bathroom uni = "bathroom uni.png"
 image bg outside uni = "outside uni.png"
+# definiciones de audio
+define audio.ColorYourNight = "./audio/Color Your Night.mp3"
+define audio.RoadNoise = './audio/road-noise-1.mp3'
+define audio.FairNoise = './audio/street-fair-background-noise-149086.mp3'
 # escena de inicio
 label start:
     scene black
@@ -56,6 +60,7 @@ label start:
     return
 # prologo
 label feriaUni:
+    play audio FairNoise
     scene bg carnival base with dissolve:
         xzoom 1.5
     
@@ -117,6 +122,7 @@ label feriaUni:
     jump bus
     return
 label bus:
+    play audio RoadNoise
     scene bg bus inside with dissolve:
         xzoom 1.1
         yzoom 1.1
@@ -127,6 +133,7 @@ label bus:
     jump casaDelProta
     return
 label casaDelProta:
+    play music ColorYourNight volume 0.75
     scene bg house with dissolve:
         xzoom 1.5
         yzoom 1.5
@@ -142,6 +149,7 @@ label casaDelProta:
         menu informarse:
             "quieres informarte sobre la carrera de ingeniería civil informática?"
             "si":
+                # llevar a la pag uni ing informatica
                 pov "La carrera trataba de diseñar, desarrollar y gestionar sistemas a través de programación y logaritmos."
                 pov "Se necesitaba un fuerte manejo de matemáticas y lógica"
                 $ opcionInfo = True
@@ -254,6 +262,7 @@ label biblioteca_mostrador:
         povInside "Una familiar sonrisa pura vino a mí, y ante mi expresión confusa, una mueca de preocupación se posó en su rostro, sin embargo, no tocó el tema más allá."
         Cristi "Buena suerte."
         jump escaleras_dia
+        # moros por la costa y son las 2 am XD
     return
 label biblioteca_zona_libros:
     scene bg library uni pt1 with dissolve:

@@ -13,7 +13,7 @@
 ##
 ## El _() que rodea la cadena de texto la señala como traducible.
 
-define config.name = _("Compliled Heart")
+define config.name = _("Compiled-Heart")
 
 
 ## Determina si el título dado más arriba se muestra en el menú principal.
@@ -37,7 +37,7 @@ define gui.about = _p("""
 ## Nombre breve del juego para ejecutables y directorios en la distribución.
 ## Debe contener solo carácteres ASCII, sin espacios, comas o puntos y coma.
 
-define build.name = "Compliled Heart"
+define build.name = "CompiledHeart"
 
 
 ## Sonidos y música ############################################################
