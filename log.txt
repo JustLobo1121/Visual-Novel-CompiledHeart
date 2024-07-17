@@ -1,22 +1,39 @@
-2024-07-15 22:08:06 UTC
+2024-07-17 18:59:19 UTC
 Windows-10-10.0.22621
 Ren'Py 8.2.3.24061702
 
 renpy warp script started
 connected to renpy warp socket server
-Early init took 0.63s
-Loading error handling took 0.11s
-Loading script took 1.65s
-Loading save slot metadata took 0.20s
+Early init took 1.13s
+Loading error handling took 0.65s
+Loading script took 5.36s
+Loading save slot metadata took 0.39s
 Loading persistent took 0.00s
-
-File "game/script.rpy", line 30: Line is indented, but the preceding define statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    image bg bus inside = "bus inside.png"
-    ^
+Running init code took 0.32s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.30s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.01s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.52s
+Creating interface object took 0.06s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+Interface start took 0.12s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -30,19 +47,32 @@ Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
 Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 87, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 112, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 116, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 116, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
 renpy warp script exiting
 Resetting cache.
 renpy warp script started
 connected to renpy warp socket server
-Early init took 54.16s
+Early init took 56.39s
 Loading error handling took 0.05s
-Loading script took 0.50s
-Loading save slot metadata took 0.06s
+Loading script took 0.30s
+Loading save slot metadata took 0.07s
 Loading persistent took 0.00s
-Running init code took 0.12s
-Loading analysis data took 0.03s
+Running init code took 0.04s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
+Reloading save slot metadata took 0.04s
 Index archives took 0.00s
 Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
 Dump and make backups took 0.00s
@@ -54,68 +84,16 @@ nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.10s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.03s
-Running _start took 0.00s
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 79, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 80, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 81, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 101, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 107, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 96.83s
-Loading error handling took 0.05s
-Loading script took 0.33s
-Loading save slot metadata took 0.09s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
+Init translation took 0.04s
+Build styles took 0.01s
+Load screen analysis took 0.02s
+Analyze screens took 0.02s
 Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
 Save bytecode. took 0.02s
 Running _start took 0.00s
-Interface start took 0.06s
+Interface start took 0.05s
 
 Initializing gl2 renderer:
 primary display bounds: (0, 0, 1366, 768)
@@ -129,45 +107,20 @@ Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
 Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 107, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 101, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 81, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 80, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 79, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 79, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 80, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 81, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 109, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 113, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 114, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 115, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 116, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 117, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 118, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
 socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 120, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 122, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 123, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 124, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 128, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 129, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 130, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 131, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 143, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
 renpy warp script exiting
 Resetting cache.
 renpy warp script started
 connected to renpy warp socket server
-Early init took 132.85s
+Early init took 79.94s
 Loading error handling took 0.05s
-Loading script took 0.37s
+Loading script took 0.30s
 Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.04s
+Running init code took 0.03s
 Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
 Reloading save slot metadata took 0.04s
@@ -191,6 +144,1604 @@ Prepare screens took 0.07s
 Save pyanalysis. took 0.02s
 Save bytecode. took 0.02s
 Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 81.78s
+Loading error handling took 0.04s
+Loading script took 0.33s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 83.95s
+Loading error handling took 0.05s
+Loading script took 0.27s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 105.63s
+Loading error handling took 0.04s
+Loading script took 0.27s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 119.70s
+Loading error handling took 0.04s
+Loading script took 0.31s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 139, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 142, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 143, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 145, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 146, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 156, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 157, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 158, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 171, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 158, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 157, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 156, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 146, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 161.73s
+Loading error handling took 0.05s
+Loading script took 0.20s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 269: Indentation mismatch.
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 167.99s
+Loading error handling took 0.03s
+Loading script took 0.19s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 269: Indentation mismatch.
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 172.67s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 177.57s
+Loading error handling took 0.04s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 179.57s
+Loading error handling took 0.04s
+Loading script took 0.30s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 183.15s
+Loading error handling took 0.08s
+Loading script took 0.63s
+Loading save slot metadata took 0.11s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 176, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 177, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 178, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 179, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 178, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 177, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 176, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 176, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 177, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 208.44s
+Loading error handling took 0.06s
+Loading script took 0.23s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 178: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    Sentí tanta felicidad, sin embargo, antes de enviar la postulación, "
+                         ^
+            entre todos los folletos en el escritorio, apareció un repentino color celeste."
+
+File "game/script.rpy", line 180: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    En mi mente, recordé vagamente la razón por la que estaba ahí, y me pregunte si debía verlo mejor."
+               ^
+    
+            menu informarse:
+                "quieres informarte sobre la carrera de ingeniería civil informática?"
+                "si":
+                    # llevar a la pag uni ing informatica
+                    pov "La carrera trataba de diseñar, desarrollar y gestionar sistemas a través de programación y logaritmos."
+                    pov "Se necesitaba un fuerte manejo de matemáticas y lógica"
+                    $ opcionInfo = True
+                "no":
+                    "probablemente sea mala opcion"
+                    $ opcionInfo = False
+            menu opcionCarrera:
+                "quieres colocar la ing. civil en informatica entre tus opciones?"
+                "si":
+                    if opcionInfo:
+                        pov "puede que sea buena idea"
+                    else:
+                        pov "No creo que quedé si lo dejo hasta el final. Apreté el botón de enviar con una clara satisfacción, "
+                        pov "de ver mi carrera cómo primera opción, ignorando ingeniería civil informática."
+                    $ Seleccion = 1
+                    
+                "no":
+                    $ Seleccion = 2
+            jump transiciones
+        elif state == 0: # parte historia
+            narrador "La parcial de programación llegó en un reglón, siendo un evento bastante importante. Era la oportunidad perfecta, para saber que [povname] está por hacer la decisión era correcta."
+            menu Teoria_o_Practica:
+                "¿Teoría o práctica?"
+                "Practica":
+                    $ state = 1
+                    $ rutaBuena = True
+                "Teoria":
+                    $ state = 3
+                    $ rutaMala = True
+                    """Comencé a dar la teoría en la prueba de programación, al final, decidí ignorar una clara sensación de confusión."""
+            jump transiciones
+    # universidad:
+    # partes del edificio principal
+    # tema "once unpon a time"
+    label entrada_fuera:
+        scene bg entrance uni pt2 with dissolve:
+            xzoom 1.5
+            yzoom 1.5
+        if state == 0:
+            """Al salir a la entrada principal, un gran frío golpeó mi cuerpo."""
+            pov "Maldición..."
+            """Había sido un día bastante agotador, y aún faltaba para llegar a casa, sin embargo, mis pies se detuvieron al mirar de reojo la biblioteca."""
+            """Seguía abierta a pesar de la hora, y en mi mente se reflejó el libro de matemáticas que el profesor nos había recomendado Ignorando el agotamiento, fui a la biblioteca"""
+            jump biblioteca
+    label entrada:
+        scene bg entrance uni pt2 with dissolve:
+            xzoom 1.5
+            yzoom 1.5
+        if state == 2:
+            narrador "El mundo se veía más claro, cuando la figura de ella esperando en la puerta, apareció en la visión de [povname]."
+    
+            """Apenas notó que estaba ahí, no dije lo que le quería decir en realidad, sino lo que yo necesitaba."""
+            pov "Lo decidí."
+            jump oficina_de_cristian
+    label pasillo:
+        stop music fadeout 0.25
+        scene bg mainbuilding hallway with dissolve:
+            xzoom 1.5
+            yzoom 1.5
+        play music OnceUponAtime volume 0.25 loop
+        if state == 0:
+            """Los pasillos del lugar estaban silenciosos, vacíos, ya que era tarde."""
+            jump entrada_fuera
+    
+    label escaleras:
+        scene bg mainbuilding stairs pt1 with dissolve:
+                xzoom 1.5
+                yzoom 1.5
+        if state == 1 or state == 2 or state == 3:
+            stop music fadeout 0.5
+            play music OnceUponAtime fadein 0.25 volume 0.25
+            if state == 1:
+                """
+
+File "game/script.rpy", line 273: expected statement.
+    No quería ver a mis amigos en éste momento, sintiendo un sentimiento desgarrador de fracaso.
+                                              ^
+
+File "game/script.rpy", line 274: expected statement.
+    En realidad, a pesar de mis dudas, rendirse siempre se sentía mal después de todo.
+               ^
+
+File "game/script.rpy", line 276: expected statement.
+    Sin embargo, no probaba que las palabras de esa persona fueran ciertas.
+               ^
+
+File "game/script.rpy", line 285: expected statement.
+    Había sido bastante satisfactorio a comparación de los anteriores, en los que acababa siempre sintiendo una gran frustración.
+                                                                     ^
+
+File "game/script.rpy", line 287: expected statement.
+    Independiente de mi nota, mi realización había sido completa, por lo que estaba bien.
+                            ^
+
+File "game/script.rpy", line 298: expected statement.
+    Sentí mis dientes apretarse, al ver en la terminal todos los errores que indicaba el compilador, en pleno control de programación.
+                               ^
+
+File "game/script.rpy", line 305: expected statement.
+    Está vez, fueron mis propios puños los que se apretaron, al escuchar una voz suave hablar con sarcasmo, 
+            ^
+
+File "game/script.rpy", line 306: expected statement.
+    mientras mi mente buscaba todo tipo de razones para no romper mi propia computadora, que seguía produciendo palabras repetidas
+                                                                                       ^
+
+File "game/script.rpy", line 312: expected statement.
+    Inserte mi nombre a regañadientes en el archivo en C.
+                                                        ^
+
+File "game/script.rpy", line 313: expected statement.
+    Era entendible, considerando mi propio estado, verías a una persona ojerosa y somnolienta, que llevaba en una incómoda silla con mala postura,
+                  ^
+
+File "game/script.rpy", line 315: expected statement.
+    mirando una borrosa pantalla que se hacía más borrosa a cada momento.
+                                                                        ^
+
+File "game/script.rpy", line 317: expected statement.
+    El estado mental fue ausente, se había ausentado desde que a los 30 minutos de clase, estaba seguro que habían pasado 3 horas, y era un error.
+                                ^
+
+File "game/script.rpy", line 319: expected statement.
+    Ignorando el dolor de hombros, forcé mis manos a apagar y guardar mi computador, y mis pies a levantarse.
+                                 ^
+
+File "game/script.rpy", line 321: expected statement.
+    Sentí la mirada del profesor sobre mí, por lo que hice una pequeña pausa, antes de comenzar a caminar
+                                         ^
+
+File "game/script.rpy", line 326: expected statement.
+    Comencé a dar la práctica en la prueba de programación, y con cada código, mi mente comenzó a maquetar todo en mi cabeza más fácil.
+                                                          ^
+
+File "game/script.rpy", line 327: expected statement.
+    Al final, dejé muchas alarmas, con una extraña sensación de satisfacción.
+            ^
+
+File "game/script.rpy", line 332: expected statement.
+    Al cerrar la puerta fui directo a una computadora, y comencé a esperar el enunciado del código.
+                                                     ^
+
+File "game/script.rpy", line 333: expected statement.
+    Esto lo iba a decidir.
+                         ^
+
+File "game/script.rpy", line 335: expected statement.
+    No sabía si era nerviosismo, o el hecho de basar una decisión tan importante en un solo parcial, sin embargo, todo se sentía surrealista.
+                               ^
+
+File "game/script.rpy", line 337: expected statement.
+    Por un momento recordé, los momentos en la carrera, los frustrantes primeros rojos de mi vida, las amistades que hice, los momentos divertidos y estresantes, el cansancio y constante presión.
+                          ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 213.17s
+Loading error handling took 0.05s
+Loading script took 0.27s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 176, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 216.70s
+Loading error handling took 0.05s
+Loading script took 0.35s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 221.55s
+Loading error handling took 0.04s
+Loading script took 0.21s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/script.rpy", line 176: expected statement.
+    Todo el miedo y frustración de los últimos meses se evaporaron apenas fijé la mirada en el puntaje de la Prueba de Selección   Universitaria.
+                                                                                                                                                ^
+
+File "game/script.rpy", line 177: expected statement.
+    Tardé unos días en reaccionar, e ir directamente a la página de universidades a postularme en 10 universidades cerca de mi     casa.
+                                 ^
+
+File "game/script.rpy", line 178: expected statement.
+    Sentí tanta felicidad, sin embargo, antes de enviar la postulación, 
+                         ^
+
+File "game/script.rpy", line 179: expected statement.
+    entre todos los folletos en el escritorio, apareció un repentino color celeste.
+                                             ^
+
+File "game/script.rpy", line 180: expected statement.
+(Perhaps you left out a " at the end of the first line.)
+    En mi mente, recordé vagamente la razón por la que estaba ahí, y me pregunte si debía verlo mejor."
+               ^
+    
+            menu informarse:
+                "quieres informarte sobre la carrera de ingeniería civil informática?"
+                "si":
+                    # llevar a la pag uni ing informatica
+                    pov "La carrera trataba de diseñar, desarrollar y gestionar sistemas a través de programación y logaritmos."
+                    pov "Se necesitaba un fuerte manejo de matemáticas y lógica"
+                    $ opcionInfo = True
+                "no":
+                    "probablemente sea mala opcion"
+                    $ opcionInfo = False
+            menu opcionCarrera:
+                "quieres colocar la ing. civil en informatica entre tus opciones?"
+                "si":
+                    if opcionInfo:
+                        pov "puede que sea buena idea"
+                    else:
+                        pov "No creo que quedé si lo dejo hasta el final. Apreté el botón de enviar con una clara satisfacción, "
+                        pov "de ver mi carrera cómo primera opción, ignorando ingeniería civil informática."
+                    $ Seleccion = 1
+                    
+                "no":
+                    $ Seleccion = 2
+            jump transiciones
+        elif state == 0: # parte historia
+            narrador "La parcial de programación llegó en un reglón, siendo un evento bastante importante. Era la oportunidad perfecta, para saber que [povname] está por hacer la decisión era correcta."
+            menu Teoria_o_Practica:
+                "¿Teoría o práctica?"
+                "Practica":
+                    $ state = 1
+                    $ rutaBuena = True
+                "Teoria":
+                    $ state = 3
+                    $ rutaMala = True
+                    """Comencé a dar la teoría en la prueba de programación, al final, decidí ignorar una clara sensación de confusión."""
+            jump transiciones
+    # universidad:
+    # partes del edificio principal
+    # tema "once unpon a time"
+    label entrada_fuera:
+        scene bg entrance uni pt2 with dissolve:
+            xzoom 1.5
+            yzoom 1.5
+        if state == 0:
+            """Al salir a la entrada principal, un gran frío golpeó mi cuerpo."""
+            pov "Maldición..."
+            """Había sido un día bastante agotador, y aún faltaba para llegar a casa, sin embargo, mis pies se detuvieron al mirar de reojo la biblioteca."""
+            """Seguía abierta a pesar de la hora, y en mi mente se reflejó el libro de matemáticas que el profesor nos había recomendado Ignorando el agotamiento, fui a la biblioteca"""
+            jump biblioteca
+    label entrada:
+        scene bg entrance uni pt2 with dissolve:
+            xzoom 1.5
+            yzoom 1.5
+        if state == 2:
+            narrador "El mundo se veía más claro, cuando la figura de ella esperando en la puerta, apareció en la visión de [povname]."
+    
+            """Apenas notó que estaba ahí, no dije lo que le quería decir en realidad, sino lo que yo necesitaba."""
+            pov "Lo decidí."
+            jump oficina_de_cristian
+    label pasillo:
+        stop music fadeout 0.25
+        scene bg mainbuilding hallway with dissolve:
+            xzoom 1.5
+            yzoom 1.5
+        play music OnceUponAtime volume 0.25 loop
+        if state == 0:
+            """Los pasillos del lugar estaban silenciosos, vacíos, ya que era tarde."""
+            jump entrada_fuera
+    
+    label escaleras:
+        scene bg mainbuilding stairs pt1 with dissolve:
+                xzoom 1.5
+                yzoom 1.5
+        if state == 1 or state == 2 or state == 3:
+            stop music fadeout 0.5
+            play music OnceUponAtime fadein 0.25 volume 0.25
+            if state == 1:
+                """
+
+File "game/script.rpy", line 273: expected statement.
+    No quería ver a mis amigos en éste momento, sintiendo un sentimiento desgarrador de fracaso.
+                                              ^
+
+File "game/script.rpy", line 274: expected statement.
+    En realidad, a pesar de mis dudas, rendirse siempre se sentía mal después de todo.
+               ^
+
+File "game/script.rpy", line 276: expected statement.
+    Sin embargo, no probaba que las palabras de esa persona fueran ciertas.
+               ^
+
+File "game/script.rpy", line 285: expected statement.
+    Había sido bastante satisfactorio a comparación de los anteriores, en los que acababa siempre sintiendo una gran frustración.
+                                                                     ^
+
+File "game/script.rpy", line 287: expected statement.
+    Independiente de mi nota, mi realización había sido completa, por lo que estaba bien.
+                            ^
+
+File "game/script.rpy", line 298: expected statement.
+    Sentí mis dientes apretarse, al ver en la terminal todos los errores que indicaba el compilador, en pleno control de programación.
+                               ^
+
+File "game/script.rpy", line 305: expected statement.
+    Está vez, fueron mis propios puños los que se apretaron, al escuchar una voz suave hablar con sarcasmo, 
+            ^
+
+File "game/script.rpy", line 306: expected statement.
+    mientras mi mente buscaba todo tipo de razones para no romper mi propia computadora, que seguía produciendo palabras repetidas
+                                                                                       ^
+
+File "game/script.rpy", line 312: expected statement.
+    Inserte mi nombre a regañadientes en el archivo en C.
+                                                        ^
+
+File "game/script.rpy", line 313: expected statement.
+    Era entendible, considerando mi propio estado, verías a una persona ojerosa y somnolienta, que llevaba en una incómoda silla con mala postura,
+                  ^
+
+File "game/script.rpy", line 315: expected statement.
+    mirando una borrosa pantalla que se hacía más borrosa a cada momento.
+                                                                        ^
+
+File "game/script.rpy", line 317: expected statement.
+    El estado mental fue ausente, se había ausentado desde que a los 30 minutos de clase, estaba seguro que habían pasado 3 horas, y era un error.
+                                ^
+
+File "game/script.rpy", line 319: expected statement.
+    Ignorando el dolor de hombros, forcé mis manos a apagar y guardar mi computador, y mis pies a levantarse.
+                                 ^
+
+File "game/script.rpy", line 321: expected statement.
+    Sentí la mirada del profesor sobre mí, por lo que hice una pequeña pausa, antes de comenzar a caminar
+                                         ^
+
+File "game/script.rpy", line 326: expected statement.
+    Comencé a dar la práctica en la prueba de programación, y con cada código, mi mente comenzó a maquetar todo en mi cabeza más fácil.
+                                                          ^
+
+File "game/script.rpy", line 327: expected statement.
+    Al final, dejé muchas alarmas, con una extraña sensación de satisfacción.
+            ^
+
+File "game/script.rpy", line 332: expected statement.
+    Al cerrar la puerta fui directo a una computadora, y comencé a esperar el enunciado del código.
+                                                     ^
+
+File "game/script.rpy", line 333: expected statement.
+    Esto lo iba a decidir.
+                         ^
+
+File "game/script.rpy", line 335: expected statement.
+    No sabía si era nerviosismo, o el hecho de basar una decisión tan importante en un solo parcial, sin embargo, todo se sentía surrealista.
+                               ^
+
+File "game/script.rpy", line 337: expected statement.
+    Por un momento recordé, los momentos en la carrera, los frustrantes primeros rojos de mi vida, las amistades que hice, los momentos divertidos y estresantes, el cansancio y constante presión.
+                          ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 223.26s
+Loading error handling took 0.04s
+Loading script took 0.42s
+Loading save slot metadata took 0.03s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 226.87s
+Loading error handling took 0.07s
+Loading script took 0.31s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 230.23s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.12s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 232.31s
+Loading error handling took 0.06s
+Loading script took 0.28s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.01s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 235.71s
+Loading error handling took 0.09s
+Loading script took 0.32s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 237.92s
+Loading error handling took 0.06s
+Loading script took 0.30s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.05s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 239.73s
+Loading error handling took 0.04s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 241.55s
+Loading error handling took 0.04s
+Loading script took 0.28s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.02s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.05s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 243.51s
+Loading error handling took 0.03s
+Loading script took 0.42s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.07s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.04s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+socket > {"type": "current_line", "line": 175, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 415.25s
+Loading error handling took 0.08s
+Loading script took 0.43s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.01s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.22s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 420.38s
+Loading error handling took 0.04s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.04s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.18s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 425.39s
+Loading error handling took 0.04s
+Loading script took 0.34s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.03s
+Loading analysis data took 0.08s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.09s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.11s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.05s
+Save screen analysis took 0.11s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 430.24s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.06s
+Loading analysis data took 0.05s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
 Interface start took 0.12s
 
 Initializing gl2 renderer:
@@ -205,55 +1756,84 @@ Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
 Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 131, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 130, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 129, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 128, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 124, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 128, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 129, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 130, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 131, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
 renpy warp script exiting
 Resetting cache.
 renpy warp script started
 connected to renpy warp socket server
-Early init took 179.83s
-Loading error handling took 0.07s
-Loading script took 0.42s
-Loading save slot metadata took 0.10s
+Early init took 435.88s
+Loading error handling took 0.04s
+Loading script took 0.16s
+Loading save slot metadata took 0.05s
 Loading persistent took 0.00s
-Running init code took 0.11s
-Loading analysis data took 0.03s
+Running init code took 0.03s
+Loading analysis data took 0.02s
 Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
+Reloading save slot metadata took 0.04s
 Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
 Dump and make backups took 0.00s
 Cleaning cache took 0.00s
 Making clean stores took 0.00s
-Initial gc took 0.09s
+Initial gc took 0.06s
 DPI scale factor: 1.000000
 nvdrs: Loaded, about to disable thread optimizations.
 nvdrs: b"Couldn't load nvlib." (can be ignored)
 Creating interface object took 0.00s
 Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.01s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.20s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.06s
 Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 193, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 1751.71s
+Loading error handling took 0.07s
+Loading script took 0.59s
+Loading save slot metadata took 0.25s
+Loading persistent took 0.00s
+Running init code took 0.17s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.10s
+Index archives took 0.00s
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.12s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.01s
+Load screen analysis took 0.06s
+Analyze screens took 0.01s
+Save screen analysis took 0.00s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
 Running _start took 0.00s
 Interface start took 0.13s
 
@@ -269,1357 +1849,5 @@ Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
 Maximum texture size: 4096x4096
 Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
 Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 131, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 130, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 129, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 128, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 124, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 123, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 122, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 120, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 118, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 117, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 116, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 115, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 114, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 113, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 109, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 81, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 80, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 79, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-Can't find a place to rollback to. Not rolling back.
-socket > {"type": "current_line", "line": 79, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 80, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 81, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 109, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 113, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 114, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 115, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 116, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 117, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 118, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 120, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 122, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 123, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 124, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 128, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 129, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 130, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 131, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 145, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 146, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 147, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 160, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 162, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 163, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 164, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 212.90s
-Loading error handling took 0.04s
-Loading script took 0.30s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 164, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 215.27s
-Loading error handling took 0.04s
-Loading script took 0.33s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 163, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 218.89s
-Loading error handling took 0.06s
-Loading script took 0.46s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.01s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.03s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 162, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 223.81s
-Loading error handling took 0.04s
-Loading script took 0.56s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.04s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 162, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 227.24s
-Loading error handling took 0.04s
-Loading script took 0.29s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 162, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 168, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 169, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.03s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 259.77s
-Loading error handling took 0.05s
-Loading script took 0.27s
-Loading save slot metadata took 0.07s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.06s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.07s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 79, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 80, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 81, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 109, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 113, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 114, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 115, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 116, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 117, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 118, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 120, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 122, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 123, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 124, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 128, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 129, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 130, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 131, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 143, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 145, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 146, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 157, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 158, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 160, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 162, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 168, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 169, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 287.02s
-Loading error handling took 0.12s
-Loading script took 0.80s
-Loading save slot metadata took 0.10s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.08s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.14s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.09s
-Build styles took 0.01s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 289.01s
-Loading error handling took 0.04s
-Loading script took 0.19s
-Loading save slot metadata took 0.07s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.13s
-Index archives took 0.00s
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.09s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.07s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.09s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.00s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 79, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 80, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 81, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 109, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 113, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 114, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 115, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 116, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 117, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 118, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 120, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 122, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 123, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 124, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 128, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 129, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 130, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 131, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 143, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 145, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 146, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 157, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 158, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 160, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 162, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 162, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 160, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 158, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 157, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 146, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 145, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 143, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 143, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 145, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 146, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 157, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 158, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 160, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 162, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 168, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 169, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 178, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 356, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 358, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 359, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 361, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 362, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 364, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 366, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 367, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 368, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 369, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 370, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 371, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 228, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 209, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 210, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 211, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 212, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 238, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 239, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 240, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 242, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 243, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 244, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 245, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 247, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 248, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 189, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 189, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 248, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 247, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 245, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 244, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 243, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 242, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 240, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 239, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 238, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 212, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 211, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 210, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 209, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 228, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 371, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 370, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 369, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 368, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 367, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 366, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 364, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 362, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 361, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 359, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 358, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 356, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 178, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 178, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 356, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 178, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 356, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 358, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 359, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 361, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 362, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 364, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 366, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 367, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 368, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 369, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 370, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 371, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 228, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 209, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 210, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 211, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 212, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 238, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 239, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 240, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 242, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 243, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 244, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 245, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 247, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 248, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 248, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 189, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 374, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 375, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 430, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 431, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 271, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 272, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 273, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 274, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 273, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 272, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 271, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 431, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 537.67s
-Loading error handling took 0.04s
-Loading script took 0.50s
-Loading save slot metadata took 0.16s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.09s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 431, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 271, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 272, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 273, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 274, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 275, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 276, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 277, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 278, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 279, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 280, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 284, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 285, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 286, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 304, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 590.40s
-Loading error handling took 0.06s
-Loading script took 0.35s
-Loading save slot metadata took 0.07s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 299: expected end of line
-    play music Alone volume 0.25 fa fadein 1.5 loop
-                                 ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.14s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 593.76s
-Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.10s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.07s
-Index archives took 0.00s
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.08s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.08s
-Build styles took 0.00s
-Load screen analysis took 0.06s
-Analyze screens took 0.00s
-Save screen analysis took 0.00s
-Prepare screens took 0.12s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 304, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 305, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 306, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 308, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 310, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 311, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 313, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 315, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 316, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 317, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 318, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 319, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 321, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 322, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 324, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 325, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 326, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 327, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 328, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 329, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 331, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 333, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 335, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 336, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 337, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 338, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 339, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 340, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 341, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 342, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 343, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 344, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 345, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 346, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 347, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 436, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 437, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 378, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 379, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 380, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 381, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 382, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 383, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 410, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 383, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 410, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 383, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 677.27s
-Loading error handling took 0.05s
-Loading script took 0.39s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 383, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 408, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 409, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 410, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 411, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 412, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 413, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 414, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 415, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 416, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 453, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 454, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 215, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 454, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 453, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 416, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 453, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 454, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 215, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 454, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 215, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 744.97s
-Loading error handling took 0.06s
-Loading script took 0.64s
-Loading save slot metadata took 0.10s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 210: Line is indented, but the preceding play music statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
-    povInside "Al salir a la entrada principal, un gran frío golpeó mi cuerpo."
-    ^
-
-File "game/script.rpy", line 215: expected statement.
-    elif state == 2:
-               ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 746.99s
-Loading error handling took 0.04s
-Loading script took 0.40s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.06s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 216, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 750.53s
-Loading error handling took 0.06s
-Loading script took 0.34s
-Loading save slot metadata took 0.12s
-Loading persistent took 0.00s
-Running init code took 0.05s
-Loading analysis data took 0.03s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.01s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.05s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.08s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.06s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 215, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 217, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 218, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 464, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 218, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 217, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 781.64s
-Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-Running init code took 0.03s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.04s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.12s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 217, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 218, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 464, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 467, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 468, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 468, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 820.57s
-Loading error handling took 0.06s
-Loading script took 0.31s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 468, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 494, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 495, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 496, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 497, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 498, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 443, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 498, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 862.26s
-Loading error handling took 0.05s
-Loading script took 0.31s
-Loading save slot metadata took 0.06s
-Loading persistent took 0.00s
-Running init code took 0.04s
-Loading analysis data took 0.02s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.06s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.01s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.06s
-Save pyanalysis. took 0.02s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.09s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 496, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 495, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 496, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 441, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 442, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 443, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.05s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 887.69s
-Loading error handling took 0.04s
-Loading script took 0.26s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 546: reached end of line when expecting ':'.
-    elif n
-          ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.15s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 889.45s
-Loading error handling took 0.05s
-Loading script took 0.25s
-Loading save slot metadata took 0.03s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 546: reached end of line when expecting ':'.
-    elif not 
-             ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.08s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 898.67s
-Loading error handling took 0.05s
-Loading script took 0.35s
-Loading save slot metadata took 0.05s
-Loading persistent took 0.00s
-
-File "game/script.rpy", line 546: elif clause expects a non-empty block.
-    elif not Quedarse and rutaBuena:
-                                    ^
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Interface start took 0.11s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-renpy warp script exiting
-Resetting cache.
-renpy warp script started
-connected to renpy warp socket server
-Early init took 1028.43s
-Loading error handling took 0.03s
-Loading script took 0.35s
-Loading save slot metadata took 0.04s
-Loading persistent took 0.00s
-Running init code took 0.07s
-Loading analysis data took 0.10s
-Analyze and compile ATL took 0.00s
-Reloading save slot metadata took 0.05s
-Index archives took 0.00s
-Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart':
-Dump and make backups took 0.00s
-Cleaning cache took 0.00s
-Making clean stores took 0.00s
-Initial gc took 0.04s
-DPI scale factor: 1.000000
-nvdrs: Loaded, about to disable thread optimizations.
-nvdrs: b"Couldn't load nvlib." (can be ignored)
-Creating interface object took 0.00s
-Cleaning stores took 0.00s
-Init translation took 0.04s
-Build styles took 0.00s
-Load screen analysis took 0.00s
-Analyze screens took 0.01s
-Save screen analysis took 0.02s
-Prepare screens took 0.07s
-Save pyanalysis. took 0.00s
-Save bytecode. took 0.02s
-Running _start took 0.00s
-Interface start took 0.10s
-
-Initializing gl2 renderer:
-primary display bounds: (0, 0, 1366, 768)
-swap interval: 1 frames
-Windowed mode.
-Vendor: "b'Intel'"
-Renderer: b'Intel(R) UHD Graphics'
-Version: b'4.6.0 - Build 30.0.100.9864'
-Display Info: None
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
-Maximum texture size: 4096x4096
-socket > {"type": "current_line", "line": 492, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 493, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 492, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 492, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 493, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 494, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 495, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 496, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 441, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 442, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 443, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 547, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 548, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 549, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-socket > {"type": "current_line", "line": 550, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
-Cleaning stores took 0.00s
-Init translation took 0.00s
-Build styles took 0.00s
-Load screen analysis took 0.04s
-Analyze screens took 0.00s
-Prepare screens took 0.00s
-Running _start took 0.00s
+socket > {"type": "current_line", "line": 193, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart\\game\\script.rpy", "relative_path": "script.rpy"}
 renpy warp script exiting
