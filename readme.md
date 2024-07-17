@@ -6,7 +6,7 @@ uso de la libreria de ren'py
 - incorporacion de sprites
 # musicas de fondo (temporal):
 ### musica (autor/series)- (escena | momento) 
-- once upon a time undertale- (tema nombre)
+- once upon a time (undertale)- (tema nombre)
 - intro effect (undertale)- (cambio de capitulo)
 - paradise (boys over flowers)- (tema principal)
 - Alone (persona 4)- (momento con cristi) 
