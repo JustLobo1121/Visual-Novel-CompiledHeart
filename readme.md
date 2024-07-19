@@ -1,9 +1,8 @@
 # proyecto de introduccion a la ingenieria:
-uso de la libreria de ren'py
+- uso de la libreria de ren'py
 
 # cambios pendientes
 - minijuego de practico
-- incorporacion de sprites
 # musicas de fondo (temporal):
 ### musica (autor/series)- (escena | momento) 
 - once upon a time (undertale)- (tema nombre)
@@ -17,8 +16,8 @@ uso de la libreria de ren'py
 - Right Behind You (team fortress 2)- (momento tension)
 - next to you (parasyte)- (final salvacion)
 - i really want to stay at your house (cyberpunk 2077)- (final bueno | ruta practica)
-- lilium (elfen lied)- (final malo | ruta teoria)
-- Last Goodbye- (undertale) ? duda
+- nothing can be explained (bleach ost) (final malo | ruta teoria)
+- Last Goodbye- (undertale) (edificio princi.)
 - Autonomy (persona 5)- (sala de Programacion)
 # creditos
 - escritora principal: Aylin
