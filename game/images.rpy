@@ -1,0 +1,22 @@
+image bg bus = './images/bg/bus.png'
+image bg feria = './images/bg/carnival.png'
+image bg house = './images/bg/house.png'
+image bg classroom prog = './images/bg/classroom prog.png'
+image bg entrance = './images/bg/entrance_uni.png'
+image bg mainbuilding entrance = './images/bg/mainbuilding_entrace.png'
+image bg mainbuilding stairs = './images/bg/mainbuilding_stairs.png'
+image bg mainbuilding stairs night = './images/bg/mainbuilding_stairs_night.png'
+image bg mainbuilding hallway = './images/bg/mainbuilding_hallway.png'
+image bg mainbuilding office = './images/bg/office.png'
+image bg library books = './images/bg/library_books.png'
+image bg library base = './images/bg/library_base.png'
+image bg library general pt1 = './images/bg/library_general.png'
+image bg library general pt2 = './images/bg/library_general_2.png'
+#imagenes de personajes
+image s_dario = At("dario", sprite_highlight("dario"))
+image s_cristian = At("cristian01", sprite_highlight("cristian"))
+image s_cristina = At("cristina01", sprite_highlight("cristi"))
+image s_cristina concern = At("cristina02", sprite_highlight("cristi"))
+image s_kermit = At("kermit01", sprite_highlight("kermit"))
+image s_kermit serius = At("kermit02", sprite_highlight("kermit"))
+image s_prota = At ("prota", sprite_highlight("prota"))

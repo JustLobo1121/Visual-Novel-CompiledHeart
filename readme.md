@@ -3,7 +3,7 @@
 
 # cambios pendientes
 - minijuego de practico
-# musicas de fondo (temporal):
+# musicas de fondo:
 ### musica (autor/series)- (escena | momento) 
 - once upon a time (undertale)- (tema nombre)
 - intro effect (undertale)- (cambio de capitulo)

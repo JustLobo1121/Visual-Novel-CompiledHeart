@@ -1,5 +1,3882 @@
-2024-07-19 03:13:28 UTC
+2024-07-21 00:20:09 UTC
 Windows-10-10.0.22621
-Ren'Py 8.2.3.24061702
+Ren'Py 8.2.4.24071501+nightly
 
-Early init took 0.44s
+renpy warp script started
+connected to renpy warp socket server
+Early init took 0.43s
+Loading error handling took 0.18s
+Loading script took 2.44s
+Loading save slot metadata took 0.35s
+Loading persistent took 0.00s
+Running init code took 0.25s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.23s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.07s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.03s
+Save bytecode. took 0.04s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.18s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1184, 666) drawable=(1184, 666)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 9, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 9, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 29, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 36, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 40, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 64, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 67, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 68, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 69, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 70, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 71, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 76, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 76, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 76, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 7, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 7, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 58.89s
+Loading error handling took 0.06s
+Loading script took 0.27s
+Loading save slot metadata took 0.11s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.10s
+Index archives took 0.00s
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 7, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 139.18s
+Loading error handling took 0.05s
+Loading script took 0.33s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.01s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.01s
+Load screen analysis took 0.00s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 143.95s
+Loading error handling took 0.04s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/story/prolog.rpy", line 123: Indentation mismatch.
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 147.14s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 152.03s
+Loading error handling took 0.07s
+Loading script took 0.47s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 153.77s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 196.41s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/story/onlychapter.rpy", line 21: if statement expects a non-empty block.
+    if isProlog:
+                ^
+
+File "game/story/onlychapter.rpy", line 42: expected statement.
+    elif estado == 1 and rutaBuena:
+                ^
+
+File "game/story/onlychapter.rpy", line 46: expected statement.
+    elif estado == 1 and rutaMala:
+                ^
+
+File "game/story/onlychapter.rpy", line 51: expected statement.
+    elif estado == 2 and rutaBuena:
+                ^
+
+File "game/story/onlychapter.rpy", line 82: expected statement.
+    elif estado == 2 and rutaMala:
+                ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 198.07s
+Loading error handling took 0.03s
+Loading script took 0.22s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+
+File "game/story/onlychapter.rpy", line 21: if statement expects a non-empty block.
+    if isProlog:
+                ^
+
+File "game/story/onlychapter.rpy", line 24: expected statement.
+    elif estado == 1 and rutaBuena:
+                ^
+
+File "game/story/onlychapter.rpy", line 28: expected statement.
+    elif estado == 1 and rutaMala:
+                ^
+
+File "game/story/onlychapter.rpy", line 33: expected statement.
+    elif estado == 2 and rutaBuena:
+                ^
+
+File "game/story/onlychapter.rpy", line 64: expected statement.
+    elif estado == 2 and rutaMala:
+                ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 205.74s
+Loading error handling took 0.03s
+Loading script took 0.23s
+Loading save slot metadata took 0.04s
+Loading persistent took 0.00s
+Running init code took 0.14s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.03s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 209.15s
+Loading error handling took 0.06s
+Loading script took 0.37s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+
+File "game/story/prolog.rpy", line 146: Line is indented, but the preceding jump statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    jump transiciones
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 213.84s
+Loading error handling took 0.04s
+Loading script took 0.35s
+Loading save slot metadata took 0.10s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 217.28s
+Loading error handling took 0.20s
+Loading script took 0.33s
+Loading save slot metadata took 0.15s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.07s
+Analyze and compile ATL took 0.01s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 228.16s
+Loading error handling took 0.04s
+Loading script took 0.20s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 231.41s
+Loading error handling took 0.04s
+Loading script took 0.23s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.16s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 234.69s
+Loading error handling took 0.05s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.09s
+Build styles took 0.00s
+Load screen analysis took 0.06s
+Analyze screens took 0.00s
+Save screen analysis took 0.00s
+Prepare screens took 0.17s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.00s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 238.10s
+Loading error handling took 0.04s
+Loading script took 0.27s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 289.87s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 291.60s
+Loading error handling took 0.04s
+Loading script took 0.27s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+
+File "game/story/prolog.rpy", line 157: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show s_dario at zoomAndAlign(1.5,0.0)
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 294.75s
+Loading error handling took 0.04s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/story/prolog.rpy", line 157: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    show s_dario at zoomAndAlign(1.5,0.0)
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 299.46s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+
+File "game/story/prolog.rpy", line 166: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    pov "Mi cuerpo se adormeció, ignorando el agotamiento de programación, mientras el sentimiento ausente de mi mente se evaporó, y todo comenzaba a sentirse mágico."
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 302.65s
+Loading error handling took 0.03s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/story/prolog.rpy", line 167: Line is indented, but the preceding say statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    pov "Recién al final de ese día, me di cuenta que subía al mismo bus que yo."
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 304.37s
+Loading error handling took 0.03s
+Loading script took 0.28s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 307.63s
+Loading error handling took 0.06s
+Loading script took 0.27s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 321.53s
+Loading error handling took 0.05s
+Loading script took 0.24s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 327.79s
+Loading error handling took 0.04s
+Loading script took 0.27s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 335.91s
+Loading error handling took 0.04s
+Loading script took 0.34s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.10s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.01s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.16s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.14s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 340.70s
+Loading error handling took 0.05s
+Loading script took 0.25s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 346.98s
+Loading error handling took 0.05s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 372.95s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 376.24s
+Loading error handling took 0.07s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 379.46s
+Loading error handling took 0.04s
+Loading script took 0.20s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/story/prolog.rpy", line 151: Line is indented, but the preceding scene statement statement does not expect a block. Please check this line's indentation. You may have forgotten a colon (:).
+    "Al salir a la entrada principal, un gran frío golpeó mi cuerpo."
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 382.66s
+Loading error handling took 0.03s
+Loading script took 0.21s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.04s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 385.94s
+Loading error handling took 0.04s
+Loading script took 0.21s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.11s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.02s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 387.78s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.01s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 389.56s
+Loading error handling took 0.05s
+Loading script took 0.33s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.06s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 395.79s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 399.10s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.08s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 408.45s
+Loading error handling took 0.05s
+Loading script took 0.27s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 423.76s
+Loading error handling took 0.04s
+Loading script took 0.35s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.03s
+Prepare screens took 0.14s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 430.08s
+Loading error handling took 0.05s
+Loading script took 0.36s
+Loading save slot metadata took 0.12s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.07s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.10s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 434.84s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.09s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 438.34s
+Loading error handling took 0.07s
+Loading script took 0.48s
+Loading save slot metadata took 0.12s
+Loading persistent took 0.00s
+Running init code took 0.12s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 450.88s
+Loading error handling took 0.06s
+Loading script took 0.35s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.01s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.12s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.13s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.08s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 458.76s
+Loading error handling took 0.06s
+Loading script took 0.30s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.00s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 490.78s
+Loading error handling took 0.04s
+Loading script took 0.23s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 495.55s
+Loading error handling took 0.05s
+Loading script took 0.26s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.13s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.07s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 517.03s
+Loading error handling took 0.05s
+Loading script took 0.61s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+Running init code took 0.13s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.07s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.01s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.09s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.01s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.03s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 531.07s
+Loading error handling took 0.05s
+Loading script took 0.20s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+
+File "game/story/prolog.rpy", line 126: Indentation mismatch.
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 534.25s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.06s
+Loading persistent took 0.00s
+
+File "game/story/prolog.rpy", line 123: expected menuitem
+    play music audio.TitleEffect noloop
+    ^
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Interface start took 0.04s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 535.92s
+Loading error handling took 0.03s
+Loading script took 0.25s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.01s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.05s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.04s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.06s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 548.34s
+Loading error handling took 0.08s
+Loading script took 0.51s
+Loading save slot metadata took 0.05s
+Loading persistent took 0.00s
+Running init code took 0.09s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.03s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 553.11s
+Loading error handling took 0.04s
+Loading script took 0.24s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.04s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.08s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.01s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.10s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.08s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.03s
+Save screen analysis took 0.04s
+Prepare screens took 0.11s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.07s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 556.30s
+Loading error handling took 0.04s
+Loading script took 0.22s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.07s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.04s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.06s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.06s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 134, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 135, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 136, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 139, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 142, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 151, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 156, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 156, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 151, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 142, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 139, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 136, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 135, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 134, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 121, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 132, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 134, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 135, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 136, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 139, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 142, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 151, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 156, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 160, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 169, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 169, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 169, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 177, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 177, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 177, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 184, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 186, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 141, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 186, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 661.48s
+Loading error handling took 0.05s
+Loading script took 0.34s
+Loading save slot metadata took 0.09s
+Loading persistent took 0.00s
+Running init code took 0.08s
+Loading analysis data took 0.02s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.06s
+Build styles took 0.00s
+Load screen analysis took 0.01s
+Analyze screens took 0.02s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.12s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 185, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 141, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 185, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+renpy warp script exiting
+Resetting cache.
+renpy warp script started
+connected to renpy warp socket server
+Early init took 705.00s
+Loading error handling took 0.09s
+Loading script took 0.26s
+Loading save slot metadata took 0.07s
+Loading persistent took 0.00s
+Running init code took 0.10s
+Loading analysis data took 0.03s
+Analyze and compile ATL took 0.00s
+Reloading save slot metadata took 0.05s
+Index archives took 0.00s
+Backing up script files to 'C:\\Users\\manue\\AppData\\Roaming/RenPy/backups\\CompiledHeart - copia':
+Dump and make backups took 0.00s
+Cleaning cache took 0.00s
+Making clean stores took 0.00s
+Initial gc took 0.08s
+DPI scale factor: 1.000000
+nvdrs: Loaded, about to disable thread optimizations.
+nvdrs: b"Couldn't load nvlib." (can be ignored)
+Creating interface object took 0.00s
+Cleaning stores took 0.00s
+Init translation took 0.05s
+Build styles took 0.00s
+Load screen analysis took 0.02s
+Analyze screens took 0.01s
+Save screen analysis took 0.02s
+Prepare screens took 0.08s
+Save pyanalysis. took 0.00s
+Save bytecode. took 0.02s
+Running _start took 0.00s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+Interface start took 0.11s
+
+Initializing gl2 renderer:
+primary display bounds: (0, 0, 1366, 768)
+swap interval: 1 frames
+Windowed mode.
+Vendor: "b'Intel'"
+Renderer: b'Intel(R) UHD Graphics'
+Version: b'4.6.0 - Build 30.0.100.9864'
+Display Info: None
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+Screen sizes: virtual=(1920, 1080) physical=(1366, 745) drawable=(1366, 745)
+Maximum texture size: 4096x4096
+socket > {"type": "current_line", "line": 185, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 7, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 22, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 23, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 112, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 113, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 194, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 198, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 199, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 199, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 199, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 199, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 207, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 209, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 210, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 211, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 214, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 215, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 270, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 271, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 272, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 273, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 273, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 277, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 278, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 278, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 278, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 285, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 286, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 287, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 288, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 288, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 288, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 288, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 288, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 298, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 299, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 300, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 301, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 302, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 302, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 302, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 302, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 302, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 302, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 315, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 316, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 317, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 318, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 116, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 31, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 31, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 31, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 31, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 31, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 41, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 43, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 43, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 43, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 48, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 50, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 50, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 50, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 50, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 50, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 119, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 92, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 92, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 96, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 141, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 96, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 141, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 145, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 156, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 157, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 158, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 167, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 237, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 238, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 239, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 240, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 242, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 242, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 242, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 337, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+socket > {"type": "current_line", "line": 9, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 9, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 38, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 42, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 44, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 66, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 67, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 68, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 69, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 70, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 71, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 76, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 76, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 76, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 88, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 120, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 131, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 133, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 134, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 135, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 138, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 141, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 150, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 155, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 158, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 160, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 160, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 160, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 168, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 168, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 168, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 176, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 176, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 176, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 183, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 185, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/prolog.rpy", "relative_path": "story/prolog.rpy"}
+socket > {"type": "current_line", "line": 7, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 26, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 28, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 193, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 194, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 198, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 199, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 199, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 199, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 199, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 207, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 209, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 210, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 211, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 218, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 221, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 223, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 124, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 62, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 62, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 66, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 67, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 70, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 70, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 70, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 70, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 82, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 141, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 144, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 145, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 156, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 157, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 158, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 159, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 161, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 249, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 249, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 258, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 258, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 365, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+socket > {"type": "current_line", "line": 365, "path": "c:\\Users\\manue\\OneDrive\\Escritorio\\CompiledHeart - copia\\game\\story/onlychapter.rpy", "relative_path": "story/onlychapter.rpy"}
+Cleaning stores took 0.00s
+Init translation took 0.00s
+Build styles took 0.00s
+Load screen analysis took 0.03s
+Analyze screens took 0.00s
+Prepare screens took 0.00s
+Running _start took 0.01s
+
+Full traceback:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\ast.py", line 823, in execute
+    renpy.python.py_exec_bytecode(self.code.bytecode, self.hide, store=self.store)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\python.py", line 1178, in py_exec_bytecode
+    exec(bytecode, globals, locals)
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "C:\Users\manue\OneDrive\Escritorio\renpy-8.2.3-sdk\renpy\exports.py", line 4100, in execute_default_statement
+    i.execute_default(start)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+
+While running game code:
+  File "renpy/common/00start.rpy", line 193, in script
+    python:
+  File "renpy/common/00start.rpy", line 194, in <module>
+    renpy.execute_default_statement(True)
+  File "game/functions.rpy", line 2, in execute_default
+    default speaking_char = None
+Exception: store.speaking_char is being given a default a second time.
+renpy warp script exiting
